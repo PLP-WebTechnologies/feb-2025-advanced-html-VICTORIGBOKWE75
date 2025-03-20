@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <ol type="I">
+        <li>Name</li>
+        <li>Status</li>
+        <li>Origin</li>
+        <li>Maybe</li>
+        <li>Anything</li>
+        <li>Goes</li>
+    </ol>
+
+    <img src="images/pexels-serge-vuillermoz-2150077877-31100755.jpg" alt="An Image" width = 650px height = 800px>
+
+    <div>
+        <table>
+            <tr>
+                <th>Name</th>
+                <th>Address</th>
+                <th>Mobile</th>
+                <th>Email</th>
+            </tr>
+    
+            <tr>
+                <td>Jide</td>
+                <td>Abuja State</td>
+                <td>+23480*********</td>
+                <td>example28@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Ejike</td>
+                <td>Imo State</td>
+                <td>+23480*********</td>
+                <td>example28@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Eniola</td>
+                <td>Ogun State</td>
+                <td>+23480*********</td>
+                <td>example28@gmail.com</td>
+            </tr>
+        </table>
+    </div>
+
+    <!-- The registration form should have:
+    Name, email, password, and date fields.
+    A dropdown, radio buttons, and checkboxes.
+    Proper labels and placeholders.
+    Required fields and validation attributes.
+    Ensure proper indentation and commenting. -->
+
+    <div>
+        <form action="submit">
+            <h1>Registration Form</h1>
+            <label for="name">Name: </label>
+            <input type="text" id="name" placeholder="Enter your full name"><br>
+
+            <label for="mail">Email: </label>
+            <input type="email" id="mail" placeholder="Email Address"><br>
+
+            <label for="pass">Password: </label>
+            <input type="password" id="pass" placeholder="e.g, 2345"><br>
+
+            <label for="dob">Date of Birth: </label>
+            <input type="date" id="dob" placeholder="Enter your DOB"><br>
+
+            <label for="fruits">Select a fruit: </label>
+            <select name="fruits" id="fruits">
+                <option value="Mango" selected>Mango</option>
+                <option value="Pawpaw">Pawpaw</option>
+                <option value="Apple">Apple</option>
+                <option value="Orange">Orange</option>
+                <option value="Cashew">Cashew</option>
+                <option value="Orange">Orange</option>
+            </select><br>
+
+            
+           <div>
+                <h3>Gender</h3>
+                <label for="gender">Male: </label>
+                <input type="radio" id="gender" name="male"><br>
+
+                <label for="gender">Female: </label>
+                <input type="radio" id="gender" name="male"><br>
+           </div>
+
+           <div>
+                <h3>Select your hobbies</h3>
+
+                <label for="football">Playing Footballs </label>
+                <input type="checkbox" id="football" name="hobby"><br>
+
+                <label for="music">Listening to Music </label>
+                <input type="checkbox" id="music" name="hobby"><br>
+
+                <label for="reading">Reading </label>
+                <input type="checkbox" id="reading" name="hobby"><br>
+           </div>
+
+           <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
